@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Tooth } from 'lucide-react';
+import { Activity } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Dialog,
@@ -166,7 +166,7 @@ const Services = () => {
                 />
                 <div className="p-6">
                   <div className="flex items-center mb-3">
-                    <Tooth className="h-6 w-6 text-dental-primary mr-2" />
+                    <Activity className="h-6 w-6 text-dental-primary mr-2" />
                     <h3 className="text-xl font-semibold">{service.title}</h3>
                   </div>
                   <p className="text-gray-600 mb-4">{service.shortDescription}</p>

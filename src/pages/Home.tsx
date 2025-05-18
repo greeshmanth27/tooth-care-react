@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Tooth, Calendar, Phone, Clock, CheckCircle } from 'lucide-react';
+import { Activity, Calendar, Phone, Clock, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import FAQ from '@/components/FAQ';
 
@@ -192,32 +192,32 @@ const Home = () => {
             {/* Service Cards */}
             {[
               {
-                icon: <Tooth className="h-12 w-12 text-dental-primary" />,
+                icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "General Dentistry",
                 description: "Comprehensive care including check-ups, cleanings, fillings, and preventive treatments.",
               },
               {
-                icon: <Tooth className="h-12 w-12 text-dental-primary" />,
+                icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Cosmetic Dentistry",
                 description: "Enhance your smile with teeth whitening, veneers, bonding, and more.",
               },
               {
-                icon: <Tooth className="h-12 w-12 text-dental-primary" />,
+                icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Orthodontics",
                 description: "Straighten your teeth with braces, aligners, and other orthodontic treatments.",
               },
               {
-                icon: <Tooth className="h-12 w-12 text-dental-primary" />,
+                icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Dental Implants",
                 description: "Replace missing teeth with natural-looking, functional dental implants.",
               },
               {
-                icon: <Tooth className="h-12 w-12 text-dental-primary" />,
+                icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Pediatric Dentistry",
                 description: "Gentle, comprehensive dental care specially designed for children.",
               },
               {
-                icon: <Tooth className="h-12 w-12 text-dental-primary" />,
+                icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Emergency Dentistry",
                 description: "Fast, effective care for dental emergencies to relieve pain and prevent damage.",
               },

@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Tooth } from 'lucide-react';
+import { Activity } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const Header = () => {
@@ -41,7 +41,7 @@ const Header = () => {
           to="/" 
           className="flex items-center gap-2 text-2xl font-bold text-dental-primary"
         >
-          <Tooth size={32} />
+          <Activity size={32} />
           <span>DentalCare</span>
         </Link>
 

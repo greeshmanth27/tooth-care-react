@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Tooth, Phone, Mail, MapPin, Clock } from 'lucide-react';
+import { Activity, Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Logo and About */}
           <div>
             <Link to="/" className="flex items-center gap-2 text-xl font-bold mb-4">
-              <Tooth className="text-dental-primary" size={24} />
+              <Activity className="text-dental-primary" size={24} />
               <span>DentalCare</span>
             </Link>
             <p className="text-gray-400 mb-4">
