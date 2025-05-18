@@ -44,14 +44,14 @@ const Home = () => {
               <div className="flex flex-wrap gap-4">
                 <Button
                   asChild
-                  className="bg-dental-primary hover:bg-dental-secondary text-white font-medium px-8 py-6 rounded-full"
+                  className="bg-dental-primary hover:bg-dental-secondary text-white font-medium px-8 py-6 rounded-full transition-transform duration-300 hover:scale-105 hover:shadow-lg"
                 >
                   <Link to="/contact">Book Appointment</Link>
                 </Button>
                 <Button
                   asChild
                   variant="outline"
-                  className="border-dental-primary text-dental-primary hover:bg-dental-primary hover:text-white font-medium px-8 py-6 rounded-full"
+                  className="border-dental-primary text-dental-primary hover:bg-dental-primary hover:text-white font-medium px-8 py-6 rounded-full transition-all duration-300 hover:shadow-lg"
                 >
                   <Link to="/services">Our Services</Link>
                 </Button>
@@ -59,9 +59,9 @@ const Home = () => {
             </div>
             <div className="lg:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" 
+                src="https://images.unsplash.com/photo-1606265752439-1f18756aa5fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" 
                 alt="Dental Care" 
-                className="rounded-lg shadow-xl w-full h-auto object-cover"
+                className="rounded-lg shadow-xl w-full h-auto object-cover transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]"
               />
             </div>
           </div>
@@ -73,7 +73,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Opening Hours */}
-            <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-dental-primary hover:shadow-xl transition-shadow">
+            <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-dental-primary hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="flex items-center mb-4">
                 <Clock className="h-10 w-10 text-dental-primary mr-3" />
                 <h3 className="text-xl font-semibold">Opening Hours</h3>
@@ -95,7 +95,7 @@ const Home = () => {
             </div>
 
             {/* Book Appointment */}
-            <div className="bg-dental-primary text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <div className="bg-dental-primary text-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="flex items-center mb-4">
                 <Calendar className="h-10 w-10 mr-3" />
                 <h3 className="text-xl font-semibold">Book Appointment</h3>
@@ -106,14 +106,14 @@ const Home = () => {
               <Button
                 asChild
                 variant="secondary"
-                className="w-full bg-white text-dental-primary hover:bg-gray-100"
+                className="w-full bg-white text-dental-primary hover:bg-gray-100 transition-transform duration-300 hover:scale-105"
               >
                 <Link to="/contact">Book Now</Link>
               </Button>
             </div>
 
             {/* Emergency Contact */}
-            <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-dental-primary hover:shadow-xl transition-shadow">
+            <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-dental-primary hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
               <div className="flex items-center mb-4">
                 <Phone className="h-10 w-10 text-dental-primary mr-3" />
                 <h3 className="text-xl font-semibold">Emergency Care</h3>
@@ -121,7 +121,9 @@ const Home = () => {
               <p className="text-gray-600 mb-4">
                 Dental emergency? Don't worry, we're here to help you.
               </p>
-              <p className="font-bold text-xl">(123) 456-7890</p>
+              <p className="font-bold text-xl">
+                <a href="tel:1234567890" className="transition-colors duration-300 hover:text-dental-primary">(123) 456-7890</a>
+              </p>
               <p className="text-gray-500">Available 24/7 for emergencies</p>
             </div>
           </div>
@@ -134,9 +136,9 @@ const Home = () => {
           <div className="flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/2 mb-8 lg:mb-0">
               <img 
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80" 
+                src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80" 
                 alt="Dental Clinic" 
-                className="rounded-lg shadow-lg w-full h-auto object-cover"
+                className="rounded-lg shadow-lg w-full h-auto object-cover transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]"
               />
             </div>
             <div className="lg:w-1/2 lg:pl-12">
@@ -152,26 +154,26 @@ const Home = () => {
                 maintain optimal oral health and a beautiful smile for life.
               </p>
               <ul className="space-y-2 mb-6">
-                <li className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-dental-primary mr-2" />
+                <li className="flex items-center group transition-all duration-300 hover:translate-x-1">
+                  <CheckCircle className="h-5 w-5 text-dental-primary mr-2 transition-transform duration-300 group-hover:scale-110" />
                   <span>State-of-the-art technology</span>
                 </li>
-                <li className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-dental-primary mr-2" />
+                <li className="flex items-center group transition-all duration-300 hover:translate-x-1">
+                  <CheckCircle className="h-5 w-5 text-dental-primary mr-2 transition-transform duration-300 group-hover:scale-110" />
                   <span>Personalized care plans</span>
                 </li>
-                <li className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-dental-primary mr-2" />
+                <li className="flex items-center group transition-all duration-300 hover:translate-x-1">
+                  <CheckCircle className="h-5 w-5 text-dental-primary mr-2 transition-transform duration-300 group-hover:scale-110" />
                   <span>Friendly and experienced staff</span>
                 </li>
-                <li className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-dental-primary mr-2" />
+                <li className="flex items-center group transition-all duration-300 hover:translate-x-1">
+                  <CheckCircle className="h-5 w-5 text-dental-primary mr-2 transition-transform duration-300 group-hover:scale-110" />
                   <span>Comfortable, relaxing environment</span>
                 </li>
               </ul>
               <Button
                 asChild
-                className="bg-dental-primary hover:bg-dental-secondary text-white"
+                className="bg-dental-primary hover:bg-dental-secondary text-white transition-transform duration-300 hover:scale-105 hover:shadow-md"
               >
                 <Link to="/about">Learn More About Us</Link>
               </Button>
@@ -195,49 +197,68 @@ const Home = () => {
                 icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "General Dentistry",
                 description: "Comprehensive care including check-ups, cleanings, fillings, and preventive treatments.",
+                image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80"
               },
               {
                 icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Cosmetic Dentistry",
                 description: "Enhance your smile with teeth whitening, veneers, bonding, and more.",
+                image: "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
               },
               {
                 icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Orthodontics",
                 description: "Straighten your teeth with braces, aligners, and other orthodontic treatments.",
+                image: "https://images.unsplash.com/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
               },
               {
                 icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Dental Implants",
                 description: "Replace missing teeth with natural-looking, functional dental implants.",
+                image: "https://images.unsplash.com/photo-1498603911539-94de8c787606?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80"
               },
               {
                 icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Pediatric Dentistry",
                 description: "Gentle, comprehensive dental care specially designed for children.",
+                image: "https://images.unsplash.com/photo-1628784230353-2a9fb4b1c91d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80"
               },
               {
                 icon: <Activity className="h-12 w-12 text-dental-primary" />,
                 title: "Emergency Dentistry",
                 description: "Fast, effective care for dental emergencies to relieve pain and prevent damage.",
+                image: "https://images.unsplash.com/photo-1587778082149-bd5b1bf5d3fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
               },
             ].map((service, index) => (
               <div 
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-xl transition-all hover:border-dental-primary"
+                className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 hover:border-dental-primary group"
               >
-                <div className="mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <Link 
-                  to="/services" 
-                  className="text-dental-primary hover:text-dental-secondary font-medium flex items-center"
-                >
-                  Learn More
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </Link>
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title} 
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center mb-3">
+                    <div className="transition-transform duration-300 group-hover:rotate-12">
+                      {service.icon}
+                    </div>
+                    <h3 className="text-xl font-semibold ml-2">{service.title}</h3>
+                  </div>
+                  <p className="text-gray-600 mb-4">{service.description}</p>
+                  <Link 
+                    to="/services" 
+                    className="text-dental-primary hover:text-dental-secondary font-medium flex items-center transition-all duration-300 group-hover:translate-x-2"
+                  >
+                    Learn More
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1 transition-transform duration-300 group-hover:translate-x-1" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                    </svg>
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
@@ -246,7 +267,7 @@ const Home = () => {
             <Button
               asChild
               size="lg"
-              className="bg-dental-primary hover:bg-dental-secondary text-white font-medium"
+              className="bg-dental-primary hover:bg-dental-secondary text-white font-medium transition-transform duration-300 hover:scale-105 hover:shadow-lg"
             >
               <Link to="/services">View All Services</Link>
             </Button>
@@ -264,7 +285,7 @@ const Home = () => {
           <Button
             asChild
             size="lg"
-            className="bg-white text-dental-primary hover:bg-gray-100 font-medium px-8"
+            className="bg-white text-dental-primary hover:bg-gray-100 font-medium px-8 transition-transform duration-300 hover:scale-105 hover:shadow-lg"
           >
             <Link to="/contact">Book Your Appointment</Link>
           </Button>

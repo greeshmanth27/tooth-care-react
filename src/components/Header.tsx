@@ -32,16 +32,16 @@ const Header = () => {
   return (
     <header
       className={cn(
-        'fixed top-0 w-full z-40 transition-all duration-200',
+        'fixed top-0 w-full z-40 transition-all duration-300',
         isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link 
           to="/" 
-          className="flex items-center gap-2 text-2xl font-bold text-dental-primary"
+          className="flex items-center gap-2 text-2xl font-bold text-dental-primary transition-transform duration-300 hover:scale-105"
         >
-          <Activity size={32} />
+          <Activity size={32} className="transition-transform hover:rotate-12" />
           <span>DentalCare</span>
         </Link>
 
@@ -52,7 +52,7 @@ const Header = () => {
               key={item.name}
               to={item.path}
               className={cn(
-                'font-medium link-underline',
+                'font-medium link-underline transition-all duration-300',
                 location.pathname === item.path
                   ? 'text-dental-primary'
                   : 'text-gray-700 hover:text-dental-primary'
@@ -65,7 +65,7 @@ const Header = () => {
 
         {/* Mobile Navigation Toggle */}
         <button
-          className="md:hidden text-gray-700 hover:text-dental-primary"
+          className="md:hidden text-gray-700 hover:text-dental-primary transition-colors duration-300"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           <svg
@@ -103,10 +103,10 @@ const Header = () => {
                 key={item.name}
                 to={item.path}
                 className={cn(
-                  'block py-3 font-medium',
+                  'block py-3 font-medium transition-all duration-300',
                   location.pathname === item.path
                     ? 'text-dental-primary'
-                    : 'text-gray-700 hover:text-dental-primary'
+                    : 'text-gray-700 hover:text-dental-primary hover:pl-2'
                 )}
                 onClick={() => setIsMobileMenuOpen(false)}
               >

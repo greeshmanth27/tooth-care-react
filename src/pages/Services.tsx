@@ -38,7 +38,7 @@ const services = [
     title: "Preventive Dentistry",
     shortDescription: "Regular check-ups and cleanings to maintain oral health and prevent dental issues.",
     fullDescription: "Our preventive dentistry services focus on keeping your teeth and gums healthy to avoid dental problems before they start. This includes comprehensive exams, professional cleanings, fluoride treatments, dental sealants, and customized oral hygiene instructions. Regular preventive care helps catch issues early when they're easier and less expensive to treat.",
-    image: "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80",
+    image: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80",
     benefits: [
       "Early detection of dental problems",
       "Removal of plaque and tartar build-up",
@@ -52,7 +52,7 @@ const services = [
     title: "Cosmetic Dentistry",
     shortDescription: "Enhance the appearance of your smile with our range of cosmetic dental procedures.",
     fullDescription: "Our cosmetic dentistry services are designed to improve the appearance of your teeth and give you a smile you'll love to show off. From simple treatments like professional whitening to more comprehensive procedures such as veneers or complete smile makeovers, we can help you achieve the beautiful, confident smile you deserve.",
-    image: "https://images.unsplash.com/photo-1581712038518-13e54d71c66c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80",
+    image: "https://images.unsplash.com/photo-1581594549595-35f6edc7b762?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
     benefits: [
       "Professional teeth whitening",
       "Porcelain veneers",
@@ -66,7 +66,7 @@ const services = [
     title: "Restorative Dentistry",
     shortDescription: "Repair damaged teeth and replace missing teeth to restore function and aesthetics.",
     fullDescription: "Our restorative dentistry services focus on repairing or replacing damaged or missing teeth to restore both function and appearance. Whether you need a simple filling, a crown to protect a weakened tooth, or replacement options for missing teeth, our skilled team uses the latest techniques and materials to provide durable, natural-looking results.",
-    image: "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80",
+    image: "https://images.unsplash.com/photo-1579083379098-24cc5e2f2830?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
     benefits: [
       "Tooth-colored fillings",
       "Crowns and bridges",
@@ -80,7 +80,7 @@ const services = [
     title: "Dental Implants",
     shortDescription: "Permanent, natural-looking replacements for missing teeth.",
     fullDescription: "Dental implants are the gold standard for replacing missing teeth. These titanium posts are surgically placed in your jawbone and function as artificial tooth roots, providing a strong foundation for fixed or removable replacement teeth. Implants look, feel, and function like your natural teeth, allowing you to eat, speak, and smile with confidence.",
-    image: "https://images.unsplash.com/photo-1563699700-638e8da63fd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2001&q=80",
+    image: "https://images.unsplash.com/photo-1498603911539-94de8c787606?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80",
     benefits: [
       "Permanent solution for tooth loss",
       "Prevents bone loss in the jaw",
@@ -94,7 +94,7 @@ const services = [
     title: "Orthodontics",
     shortDescription: "Straighten misaligned teeth for a beautiful smile and improved oral health.",
     fullDescription: "Our orthodontic services help patients of all ages achieve straighter, properly aligned teeth for both aesthetic appeal and improved function. We offer traditional braces as well as modern alternatives like clear aligners. Properly aligned teeth are not only more attractive but also easier to clean, reducing your risk of decay and gum disease.",
-    image: "https://images.unsplash.com/photo-1547061155-4d0c73e8e989?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1921&q=80",
+    image: "https://images.unsplash.com/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
     benefits: [
       "Traditional metal braces",
       "Clear/ceramic braces",
@@ -108,7 +108,7 @@ const services = [
     title: "Pediatric Dentistry",
     shortDescription: "Specialized dental care for children in a comfortable, child-friendly environment.",
     fullDescription: "Our pediatric dentistry services are specifically designed to meet the unique dental needs of children from infancy through adolescence. We focus on creating positive dental experiences in a kid-friendly environment to help children develop good oral hygiene habits and maintain healthy smiles as they grow. Our gentle approach helps minimize anxiety and build confidence in young patients.",
-    image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+    image: "https://images.unsplash.com/photo-1628784230353-2a9fb4b1c91d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80",
     benefits: [
       "Child-friendly atmosphere",
       "Gentle cleaning and exams",
@@ -157,22 +157,25 @@ const Services = () => {
             {services.map((service) => (
               <div 
                 key={service.id}
-                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all hover:border-dental-primary border border-transparent"
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 hover:border-dental-primary border border-transparent group cursor-pointer"
+                onClick={() => openDialog(service.id)}
               >
-                <img 
-                  src={service.image} 
-                  alt={service.title} 
-                  className="w-full h-56 object-cover"
-                />
+                <div className="h-56 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title} 
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
                 <div className="p-6">
                   <div className="flex items-center mb-3">
-                    <Activity className="h-6 w-6 text-dental-primary mr-2" />
+                    <Activity className="h-6 w-6 text-dental-primary mr-2 transition-transform duration-300 group-hover:rotate-12" />
                     <h3 className="text-xl font-semibold">{service.title}</h3>
                   </div>
                   <p className="text-gray-600 mb-4">{service.shortDescription}</p>
                   <Button
                     onClick={() => openDialog(service.id)}
-                    className="w-full bg-dental-primary hover:bg-dental-secondary text-white"
+                    className="w-full bg-dental-primary hover:bg-dental-secondary text-white transition-transform duration-300 hover:scale-105"
                   >
                     Learn More
                   </Button>
@@ -198,21 +201,21 @@ const Services = () => {
                   <img 
                     src={getServiceById(selectedService)?.image} 
                     alt={getServiceById(selectedService)?.title} 
-                    className="w-full h-56 object-cover rounded-md mb-4"
+                    className="w-full h-56 object-cover rounded-md mb-4 transition-all duration-300 hover:shadow-lg"
                   />
                   <p className="mb-4">{getServiceById(selectedService)?.fullDescription}</p>
                   
                   <h4 className="font-semibold text-lg text-gray-900 mb-2">Key Benefits:</h4>
                   <ul className="list-disc pl-5 mb-4 space-y-1">
                     {getServiceById(selectedService)?.benefits.map((benefit, index) => (
-                      <li key={index}>{benefit}</li>
+                      <li key={index} className="transition-all duration-300 hover:translate-x-1">{benefit}</li>
                     ))}
                   </ul>
                   
                   <div className="mt-6 text-center">
                     <Button
                       asChild
-                      className="bg-dental-primary hover:bg-dental-secondary text-white"
+                      className="bg-dental-primary hover:bg-dental-secondary text-white transition-transform duration-300 hover:scale-105 hover:shadow-md"
                     >
                       <Link to="/contact">Book This Service</Link>
                     </Button>
@@ -235,7 +238,7 @@ const Services = () => {
           <Button
             asChild
             size="lg"
-            className="bg-white text-dental-primary hover:bg-gray-100 font-medium px-8"
+            className="bg-white text-dental-primary hover:bg-gray-100 font-medium px-8 transition-transform duration-300 hover:scale-105 hover:shadow-lg"
           >
             <Link to="/contact">Book Your Appointment</Link>
           </Button>
